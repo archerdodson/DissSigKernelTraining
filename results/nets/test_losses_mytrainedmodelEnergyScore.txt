@@ -1,0 +1,36 @@
+VALIDATION
+Whole data scores: 
+Energy score: 95.34, Gaussian Kernel score -2.25
+TEST
+Whole data scores: 
+Energy score: 103.27, Gaussian Kernel score -2.25
+
+Calibration metrics:
+x0: Cal. error 0.0770, RMSE 1.7554, R2 -64.3372
+x1: Cal. error 0.0870, RMSE 2.0306, R2 -75.1511
+x2: Cal. error 0.0750, RMSE 0.9434, R2 -14.4719
+x3: Cal. error 0.0850, RMSE 1.6436, R2 -45.1336
+x4: Cal. error 0.0780, RMSE 1.9517, R2 -69.3172
+x5: Cal. error 0.0670, RMSE 2.5580, R2 -121.5714
+x6: Cal. error 0.3080, RMSE 0.1835, R2 0.4117
+x7: Cal. error 0.0910, RMSE 0.3205, R2 -0.7328
+x8: Cal. error 0.0680, RMSE 1.7398, R2 -63.4902
+x9: Cal. error 0.0480, RMSE 1.9922, R2 -72.3099
+x10: Cal. error 0.0540, RMSE 0.9718, R2 -15.4457
+x11: Cal. error 0.0420, RMSE 1.6329, R2 -44.6090
+x12: Cal. error 0.0570, RMSE 1.9121, R2 -67.1713
+x13: Cal. error 0.0410, RMSE 2.5284, R2 -117.4204
+x14: Cal. error 0.2880, RMSE 0.2256, R2 0.1104
+x15: Cal. error 0.0210, RMSE 0.3171, R2 -0.7211
+
+Average values: Cal. error 0.0929, RMSE 1.4192, R2 -48.2100
+
+Standard deviation: Cal. error 0.0798, RMSE 0.7853, R2 38.9066
+
+
+Average values: Cal. error, RMSE, R2 
+
+		 0.0929 $ \pm$ 0.0798 & 1.4192  $ \pm$ 0.7853 &  -48.2100 $ \pm$ 38.9066 \\ 
+
+		 0.0929  & 1.4192  &  -48.2100  \\ 
+
