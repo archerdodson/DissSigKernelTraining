@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#SBATCH --job-name=sigma_seq
-#SBATCH --time=24:00:00
-#SBATCH --partition=gpu
+#SBATCH --job-name=SigKernel
+#SBATCH --time=0:01:00
+#SBATCH --partition=gpu-devel
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=16
@@ -18,7 +18,7 @@ module load PyTorch/2.1.2-CUDA-12.1.1
 module load SciPy-bundle  
 
 
-source ~/ArcherDissEnv/bin/activate  #Change environment
+source ~/ArcherDissEnv3/bin/activate  #Change environment
 
 #srun python Training_pot_tristable_rescaled.py
 srun python newcode_predictionl.py
