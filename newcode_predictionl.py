@@ -30,7 +30,7 @@ from src.weatherbench_utils import load_weatherbench_data
 
 
 #####################################################################
-batch_size, ensemble_size, method, nn_model, data_size, auxiliary_var_size = 50, 3, 'SR', 'rnn', 1, 1 #mess around with model size
+batch_size, ensemble_size, method, nn_model, data_size, auxiliary_var_size = 1000, 3, 'SR', 'rnn', 1, 1 #mess around with model size
 shuffletrue = True #Could be False?
 hidden_size_rnn = 8
 nonlinearities_dict, nonlinearity = {"relu": torch.nn.functional.relu, "tanhshrink": torch.nn.functional.tanhshrink,
@@ -39,7 +39,7 @@ nonlinearities_dict, nonlinearity = {"relu": torch.nn.functional.relu, "tanhshri
 #Implement gelu
 
 args_dict = {}
-weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.01, 3, False, 20 #Original Learning rate 0.01 
+weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.001, 1000, False, 20 #Original Learning rate 0.01 
 
 model, scoring_rule = 'lorenz63', 'SignatureKernel' #Doesn't matter?
 cuda, continue_training_net, start_epoch_early_stopping, use_tqdm, method_is_gan  = True, False, 250, True, False
