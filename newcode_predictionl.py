@@ -39,7 +39,7 @@ nonlinearities_dict, nonlinearity = {"relu": torch.nn.functional.relu, "tanhshri
 #Implement gelu
 
 args_dict = {}
-weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.01, 10, False, 20 #Original Learning rate 0.01 
+weight_decay, scheduler_gamma, lr, epochs, early_stopping, epochs_early_stopping_interval = 0, 1, 0.01, 3, False, 20 #Original Learning rate 0.01 
 
 model, scoring_rule = 'lorenz63', 'SignatureKernel' #Doesn't matter?
 cuda, continue_training_net, start_epoch_early_stopping, use_tqdm, method_is_gan  = True, False, 250, True, False
