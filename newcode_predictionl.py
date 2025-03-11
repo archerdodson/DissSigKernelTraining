@@ -339,19 +339,19 @@ np.save(nets_folder + f"train_loss{name_postfix}",train_loss_list)
 np.save(nets_folder + f"val_loss{name_postfix}",val_loss_list)
 
 
-plt.plot(train_loss_list)
-plt.title('Training Loss on a Single Data Sample, lr = ' + str(lr) + ', kernel = RBF, ens = ' +str(ensemble_size)) 
+#plt.plot(train_loss_list)
+#plt.title('Training Loss on a Single Data Sample, lr = ' + str(lr) + ', kernel = RBF, ens = ' +str(ensemble_size)) 
 #plt.title('train_loss_list, RNN Lorenz63 batch = 10, ens=7, win =10, predl=9,lr=10, kernel = RBF')
-plt.show()
-plt.close()
+#plt.show()
+#plt.close()
 
-print('val_loss_list', val_loss_list)
-plt.plot(val_loss_list)
-plt.title('val_loss_list, RNN Lorenz63 batch = 10, ens=7, win =10, predl=9,lr=10, kernel = RBF')
-plt.show()
-plt.close()
+#print('val_loss_list', val_loss_list)
+#plt.plot(val_loss_list)
+#plt.title('val_loss_list, RNN Lorenz63 batch = 10, ens=7, win =10, predl=9,lr=10, kernel = RBF')
+#plt.show()
+#plt.close()
 
-print(final_validation_loss)
+#print(final_validation_loss)
 
 
 

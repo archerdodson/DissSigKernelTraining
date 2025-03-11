@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --job-name=SigKernel
-#SBATCH --time=24:00:00
+#SBATCH --time=48:00:00
 #SBATCH --partition=gpu
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
